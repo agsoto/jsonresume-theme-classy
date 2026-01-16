@@ -16,3 +16,5 @@ resume.json
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+dist/
