@@ -89,6 +89,6 @@ export class Messages {
       return bundle.formatPattern(message.value, attributes);
     }
 
-    throw new Error(`Unknown or unsupported message key specified: ${key}`);
+    return `${key}`;
   }
 }

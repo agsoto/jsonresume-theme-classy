@@ -59,10 +59,10 @@ export async function render(resume) {
 
     const date = new Date(body);
     const datetime = date.toISOString();
-    const localeString = body.split('-').length !== 1
+    let localeString = body.split('-').length !== 1
       ? date.toLocaleDateString(locale, LONG_DATE_FORMAT)
       : date.toLocaleDateString(locale, SHORT_DATE_FORMAT);
-
+    localeString = localeString.substring(0, 1).toUpperCase() + localeString.substring(1);
     return `<time datetime="${datetime}">${localeString}</time>`;
   });
 
@@ -146,7 +146,6 @@ async function resolveImage(image, selfContained) {
       console.warn(`Local image not found: ${filePath}`);
     }
   } catch (err) {
-    // node:fs not available or file error; ignore and leave path as-is
     if (err.code !== 'ERR_MODULE_NOT_FOUND' && err.code !== 'MODULE_NOT_FOUND') {
       console.warn('Could not load local image (fs not available or error):', err);
     }
