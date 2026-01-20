@@ -5,23 +5,23 @@ A minimalist theme for [JSON Resume](http://jsonresume.org/) which a fork from [
 ## Usage
 While the theme is still not pushed to npm, you can use it by cloning the repo.
 ```sh
-# Install resume-cli via npm, yarn, pnpm, or whatever package manager you want
-npm install --global resume-cli
+# Install resumed via npm, yarn, pnpm, or whatever package manager you want
+npm install --global resumed
 
 # Clone the repo
-git clone https://github.com/agsoto/jsonresume-theme-classy.git
+git clone https://github.com/agsoto/jsonresume-theme-minimal-classy.git
 
 # Enter the folder
-cd jsonresume-theme-classy
+cd jsonresume-theme-minimal-classy
 
 # Install dependencies
 npm install
 
 # Export as an HTML page, ready to be served by any web server
-resume export --theme . cv.html
+npm run build:html
 
 # Export a PDF document, it's recommended to use your name as the file name
-resume export --theme . cv.pdf
+npm run build:pdf
 ```
 
 ### Accessibility
