@@ -16,3 +16,8 @@ languages = Języki
 interests = Zainteresowania
 references = Referencje
 present = Obecnie
+awards = Nagrody
+certificates = Certyfikaty
+publications = Publikacje
+score = Wynik
+

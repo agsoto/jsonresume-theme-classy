@@ -20,6 +20,3 @@ awards = Premios
 certificates = Certificados
 publications = Publicaciones
 score = Puntuación
-Informatics-Engineer = Ingeniero Informático
-english = Inglés
-spanish = Español

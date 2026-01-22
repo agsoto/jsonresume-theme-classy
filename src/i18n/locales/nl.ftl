@@ -16,3 +16,8 @@ languages = Talen
 interests = Interesses
 references = Referenties
 present = heden
+awards = Prijzen
+certificates = Certificaten
+publications = Publicaties
+score = Score
+

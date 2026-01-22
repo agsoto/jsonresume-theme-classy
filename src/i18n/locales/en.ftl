@@ -48,6 +48,3 @@ awards = Awards
 certificates = Certificates
 publications = Publications
 score = Score
-Informatics-Engineer = Informatics Engineer
-english = English
-spanish = Spanish

@@ -16,3 +16,8 @@ references = Referanser
 avatar-description = Profil av { $name }.
 dissertation = Avhandling: { $text }
 present = nåtid
+awards = Priser
+certificates = Sertifikater
+publications = Publikasjoner
+score = Poeng
+
